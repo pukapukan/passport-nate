@@ -3,8 +3,8 @@ var express = require('express')
   , util = require('util')
   , NateStrategy = require('passport-nate').Strategy;
 
-var NATE_CONSUMER_KEY = "93fcaac9e36baac8eeb5a168776580db05163b5c9"
-var NATE_CONSUMER_SECRET = "71e922d26b4adc4c335cd53d5f44749a";
+var NATE_CONSUMER_KEY = "your-nate-consumer-key"
+var NATE_CONSUMER_SECRET = "your-nate-consumer-secret";
 
 passport.serializeUser(function(user, done) {
   done(null, user);
